@@ -1,0 +1,38 @@
+@import url('./blocks/header/header.css');
+@import url('./blocks/trendy/trendy.css');
+@import url('./blocks/info/info.css');
+@import url('./blocks/form/form.css');
+@import url('./blocks/showcase/showcase.css');
+@import url('./blocks/shop/shop.css');
+@import url('./blocks/footer/footer.css');
+
+.page{
+    width:1240px;
+    margin: 0 auto;
+    font-family: 'Open Sans';
+}
+
+
+@media screen and (max-width: 768px) {
+    .page {
+        width:768px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page{
+        width:425px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .page {
+        width: 375px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        width: 320px;
+    }
+}
